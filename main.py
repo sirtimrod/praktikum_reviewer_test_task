@@ -110,6 +110,7 @@ class CashCalculator(Calculator):
             )
         elif cash_remained == 0:
             return 'Денег нет, держись'
+        # Последний elif стоит изменить просто на else
         elif cash_remained < 0:
             # Чтобы не использовать обратный слэш для переноса длинной
             # строки можно обернуть её скобки ()
